@@ -1,47 +1,6 @@
 # Étape 1 : Récuperer le projet week-6
 
-Ouvrez une console et entrez dans votre répertoire de travail (aidez vous des commandes ````cd```` (Changement de Dossier) et ````ls```` (LiSte des fichiers)).
-Créez un nouveau dossier de travail (````mkdir```` : MaKe DIRectory):
-``` Console
-mkdir week-6
-````
-
-Entrez dans ce dossier:
-``` Console
-cd week-6
-````
-
-Initialisez GIT pour votre projet:
-``` Console
-git init
-````
-Vous allez maintenant lier votre répertoire ````week-6```` situé sur votre ordinateur avec un répertoire distant week-6 situé sur votre compte github. Le lien sera appelé ````origin````.
-Pour cela, créez un nouveau répertoire appelé ````week-6```` sur Github et copiez l'url de ce répertoire.
-Puis, faites la commande suivante, en remplaçant (votre compte) dans cette adresse par votre compte :
-``` Console
-git remote add origin git@github.com:(votre compte)/week-6.git
-````
-Cela vous permet de synchroniser votre compte github avec les modifications que vous ferez sur le projet ````week-6```` sur votre ordinateur.
-
-À cette étape, si vous faites ````ls```` dans votre console, le dossier ````week-6```` doit être vide.
-Et si vous faites ````ls -a```` le dossier ````week-6```` ne contient que les fichiers de configuration de git, dans le dossier caché ````.git````.
-
-Maintenant, vous allez lier votre répertoire ````week-6```` situé sur votre ordinateur avec le répertoire distant ````week-6```` situé sur le compte des Women On Rails. Le lien sera appelé ````upstream````.
-Pour cela, faites la commande suivante :
-``` Console
-git remote add upstream git@github.com:women-on-rails/week-6.git
-````
-Cela va vous permettre de récupérer facilement le code existant nécessaire pour la suite de l'exercice. 
-
-Pour récupérer ce code, faites la commande suivante :
-``` Console
-git pull upstream master
-````
-
-Cela remplit le dossier ````week-6```` sur votre ordinateur avec tout ce que contient le projet ````week-6```` sur le compte Github des Women On Rails.
-En faisant un ````ls````, vous pourrez voir la liste des fichiers copiés. 
-
-Vous voila prête pour l'exercice !
+[Récuperer un projet Women On Rails](https://women-on-rails.github.io/guide/get_project)
 
 # Étape 2 : Lire l'exercice et se lancer
 
