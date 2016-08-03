@@ -1,6 +1,6 @@
-# Étape 1 : Récuperer le projet week-6
+# Étape 1 : Récupérer le projet week-6
 
-[Récuperer un projet Women On Rails](https://women-on-rails.github.io/guide/get_project)
+[Récupérer un projet Women On Rails](https://women-on-rails.github.io/guide/get_project)
 
 # Étape 2 : Lire l'exercice et se lancer
 
@@ -109,53 +109,9 @@ Après avoir lancé votre serveur, vous pourrez ouvrir votre navigateur pour y c
 Vous devriez visualiser le contenu de la vue que vous avez ouverte précédement. 
 Apres avoir fait des modifications sur cette vue, vous n'aurez qu'à recharger la page du navigateur pour voir vos modifications apparaître. (rafraîchir: F5 ou ````CTRL + R```` sous windows, ````CMD + R```` sous mac)
 
-
-
 # Étape 3 : Enregistrer les modifications sur le dépôt distant
 
-Lorsque vous avez fait des modifications dans votre projet ````week-6````, vous pouvez avoir besoin de les enregistrer pour ne pas les effacer malencontreusement. Pour cela, vous allez les ````commit```` (par abus de langage en français "commiter") : sauvegarder l'ensemble des modifications, pas pour votre éditeur de texte, mais pour git.
-
-Pour voir les différences entre ce que vous avez en ce moment dans les fichiers et ce que git a compris "depuis la dernière sauvegarde", vous pouvez lancer la commande suivante :
-``` Console
-git status
-````
-Vous verrez ce qui n'est pas encore "dans git", en rouge.
-
-Pour committer ces changements, vous devez d'abord les ajouter aux modifications à prendre en compte avec la commande :
-``` Console
-git add .
-````
-
-Si vous souhaitez ne prendre en compte que certaines modifications et pas d'autres, vous pouvez utiliser la commande :
-``` Console
-git add -p 
-````
-Cela vous permettra de visualier chaque modification et de l'ajouter (````y````) ou non (````n````). 
-
-Quand vous aurez ajouté ce que vous voulez, vous pouvez à nouveau lancer la commande :
-``` Console
-git status
-````
-Vous verrez ce qui n'est pas dans votre commit en rouge, et ce qui sera ajouté dans le prochain commit en vert.
-
-Pour "vraiment" enregistrer les modifications "en vert", il faut faire la commande :
-``` Console
-git commit 
-````
-
-Il est vraiment pratique de décrire le contenu de votre commit, pour vous ou pour les autres.
-Vous pouvez y ajouter un message avec l'option ````-m```` suivie du message :
-``` Console
-git commit -m "ce commit sert à faire ceci"
-````
-Cela permet de savoir rapidement à quoi correspond le commit, au lieu de regarder sa composition. 
-
-Pour envoyer votre commit vers votre repertoire distant (sur Github), vous devez ensuite utiliser la commande ````push````:
-```Console
-git push 
-````
-
-Allez voir sur github, vos modifications apparaîtront :)
+[Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
 
 # Pour aller plus loin :
 - La documentation de Ruby : http://ruby-doc.org/core-2.3.1/
